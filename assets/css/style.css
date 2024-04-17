@@ -12622,7 +12622,8 @@ input.cart-plus-minus-box {
 		height: 250px;
 		position: absolute;
 		top: 50%;
-		left: 7%;
+		left: 0;
+		margin-left: 20px;
 		transform: translate(-50%, -50%);
 			}
 .right {
@@ -12630,7 +12631,8 @@ input.cart-plus-minus-box {
 		height: 600px;
 		position: absolute;
 		top: 50%;
-		right: 7%;
+		right: 0;
+		margin-right: 20px;
 		transform: translate(50%, -50%);
 		}
 /* ----------------------------------------------------
