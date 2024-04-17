@@ -12626,6 +12626,7 @@ input.cart-plus-minus-box {
       height: 250px;
       margin-left: 20px;
 	float: left;
+	z-index: 1;
 			}
 .right {
 		position: fixed;
@@ -12636,6 +12637,7 @@ input.cart-plus-minus-box {
       height: 600px;
       margin-right: 20px;
 	float: right;
+	z-index: 1;
 		}
 /* ----------------------------------------------------
     END
