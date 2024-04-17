@@ -12640,11 +12640,11 @@ input.cart-plus-minus-box {
 	z-index: 1;
 		}
 @media only screen and (max-width:600px){
-#right {
+.right {
 display: none;}
 }
 @media only screen and (max-width:600px){
-#left {
+.left {
 display: none;}
 }
 /* ----------------------------------------------------
