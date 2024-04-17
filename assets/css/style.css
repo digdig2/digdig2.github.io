@@ -12625,6 +12625,7 @@ input.cart-plus-minus-box {
 		left: 0;
 		margin-left: 20px;
 		transform: translate(-50%, -50%);
+		float: left;
 			}
 .right {
 		width: 300px;
@@ -12634,6 +12635,7 @@ input.cart-plus-minus-box {
 		right: 0;
 		margin-right: 20px;
 		transform: translate(50%, -50%);
+		float: right;
 		}
 /* ----------------------------------------------------
     END
