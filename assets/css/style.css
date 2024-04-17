@@ -12621,7 +12621,7 @@ input.cart-plus-minus-box {
 		position: fixed;
       top: 50%;
       left: 0;
-      transform: translateY(-75%);
+      transform: translateY(-55%);
       width: 300px;
       height: 250px;
       margin-left: 20px;
@@ -12631,7 +12631,7 @@ input.cart-plus-minus-box {
 		position: fixed;
       top: 50%;
       right: 0;
-      transform: translateY(-75%);
+      transform: translateY(-55%);
       width: 300px;
       height: 600px;
       margin-right: 20px;
