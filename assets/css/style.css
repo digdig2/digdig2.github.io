@@ -12641,11 +12641,11 @@ input.cart-plus-minus-box {
 		}
 @media only screen and (max-width:600px){
 .right {
-display: none;}
+display:none !important; }
 }
 @media only screen and (max-width:600px){
 .left {
-display: none;}
+display:none !important; }
 }
 /* ----------------------------------------------------
     END
