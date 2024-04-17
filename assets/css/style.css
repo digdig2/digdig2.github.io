@@ -12617,6 +12617,22 @@ input.cart-plus-minus-box {
   [type="submit"].btn {
     padding: 12px 30px; } }
 
+.left {
+		width: 300px;
+		height: 250px;
+		position: absolute;
+		top: 50%;
+		left: 7%;
+		transform: translate(-50%, -50%);
+			}
+.right {
+		width: 300px;
+		height: 600px;
+		position: absolute;
+		top: 50%;
+		right: 7%;
+		transform: translate(50%, -50%);
+		}
 /* ----------------------------------------------------
     END
 ---------------------------------------------------- */
