@@ -12641,7 +12641,7 @@ input.cart-plus-minus-box {
 		}
 .rightgame {
 		position: fixed;
-      top: 70%;
+      top: 60%;
       right: 0;
       transform: translateY(-55%);
       width: 300px;
