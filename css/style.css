@@ -393,11 +393,12 @@ ul.category-list-game .cat-item:hover {
   margin-top: 10px;
 }
 .game-iframe-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  min-height: 600px;
+  width: 970px;
+  height: 590px;
+  padding: 0px;
   background-color: #003366;
+  min-width: 300px;
+  position: relative;
 }
 #play-button {
         position: absolute;
