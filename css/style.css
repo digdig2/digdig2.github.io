@@ -397,6 +397,7 @@ ul.category-list-game .cat-item:hover {
   overflow: hidden;
   width: 100%;
   min-height: 600px;
+  background-color: #003366;
 }
 .game-iframe {
   position: absolute;
