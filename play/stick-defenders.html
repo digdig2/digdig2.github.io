@@ -237,7 +237,14 @@
           				<div id="mobile-back-button" draggable="true">
           					<i class="bi bi-x-circle-fill"></i>
           				</div>
-          				<iframe class="game-iframe" id="game-area" src="https://burgerbounty.github.io/s6/stick-defenders" width="480" height="800" scrolling="none" frameborder="0" allowfullscreen></iframe>
+          				<button onclick="show_preroll();" id="play-button">Click To Play</button>
+<iframe class="game-iframe" id="game-area" src="https://burgerbounty.github.io/s6/stick-defenders" width="480" height="800" scrolling="none" frameborder="0" allowfullscreen></iframe>
+<script>
+    document.getElementById('play-button').addEventListener('click', function() {
+        document.getElementById('game-iframe').style.display = 'block';
+        document.getElementById('play-button').style.display = 'none';
+    });
+</script> 
 
           			</div>
           		</div>
