@@ -400,7 +400,7 @@ ul.category-list-game .cat-item:hover {
   min-width: 300px;
   position: relative;
 }
-.play-button {
+		.play-button {
         position: absolute;
         top: 50%;
         left: 50%;
