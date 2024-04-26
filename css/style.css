@@ -417,7 +417,7 @@ ul.category-list-game .cat-item:hover {
         background-color: rgba(0, 0, 0, 0.7);
     }
 
-.game-iframe {
+#game-iframe {
   display: none;
 }
 .widget-title {
