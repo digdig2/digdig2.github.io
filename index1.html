@@ -10,7 +10,7 @@
     <meta name="google" content="notranslate">
 	<meta name="content-language" content="en-US" />
 	<meta name="language" content="en-US" />
-	<meta name="robots" content="all" />
+	<meta name="robots" content="noindex" />
     <link rel="stylesheet" href="style.css?11">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-title" content="Digdig2-Agario">
@@ -85,8 +85,6 @@ function getScript(src, callback) {
     headElm.appendChild(script);
 }
 getScript('//api.adinplay.com/libs/aiptag/pub/AGV/play-unblocked.github.io/tag.min.js', initAipPreroll);
-function openGame(){var e=window.open(),o=e.document.createElement("iframe");o.style.width="100%",o.style.height="100%",o.style.border="none",o.src="https://digdig2.github.io/index1.html",e.document.body.appendChild(o)}function redirectToPage(){window.location.href="https://classroom.google.com"}
-
 	</script>	
 </head>
 <body>
@@ -193,7 +191,7 @@ function openGame(){var e=window.open(),o=e.document.createElement("iframe");o.s
 						<option maxlength="15" value="black.agariodns.cyou" data-itr="FFAB">BLACKHOLE - EU</option>
                     </select>
 					<input type="hidden" id="txtSkin" class="form-control" class="playerSkinInput" autocomplete="off" maxlength="15">
-                    <button class="mlacpa-play-button" onclick="openGame();redirectToPage();">PLAY</button>
+                    <button class="mlacpa-play-button" onclick="playGame(); playnow(); typeof googletag !== 'undefined' &&googletag.pubads().refresh(); return false;">PLAY</button>
                     <button class="mlacpa-spectate-button" onclick="spectate(); return false;">Spectate</button>
 					<div class="form-group" style="witdh:336px;height:300px">
 					<hr>
